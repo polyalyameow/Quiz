@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+.nav-heading {
+  font-family: "Days One", sans-serif;
+  color: rgb(255, 193, 9);
+  text-shadow: rgb(32, 32, 32) -3px 3px 1px;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-left: 1rem;
+}
+
+.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgb(48, 210, 242);
+  padding: 0.5rem;
+}
+
+.btn-log-in, .btn-Register, .btn-logout {
+  background-color: #ffffff;
+  width: 7rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+}
+
+.btn-log-in:hover, .btn-Register:hover, .btn-logout:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: rgb(48, 210, 242);
+  color: rgb(255, 255, 255);
+}
+
+.btn-Register {
+  background-color: rgb(255, 193, 9);
+}
+
+.btn-log-in a, .btn-Register a, .btn-logout a {
+  color: rgb(32, 32, 32);
+  text-decoration: none;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+}
+
+.btn-log-in a:hover, .btn-Register a:hover, .btn-logout a:hover {
+  color: rgb(32, 32, 32);
+}
+
+.log-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90vh;
+  background: rgb(48, 210, 242);
+  background: radial-gradient(circle, rgb(48, 210, 242) 0%, rgb(255, 193, 9) 100%);
+}
+
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.form-input {
+  padding: 0.5rem;
+}
+
+.log-btn {
+  background-color: rgb(12, 109, 253);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 0.5rem;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+}
+
+.log-btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: rgb(255, 193, 9);
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background-color: rgb(255, 193, 9);
+  position: fixed;
+  bottom: 0;
+}
+
+.footer__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.footer__contact__info {
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  font-style: oblique;
+  color: #2e2a2a;
+  margin: 20px;
+}
+
+.btn-log-out {
+  background-color: #ffffff;
+  width: 7rem;
+  padding: 0.2rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+}
+
+.btn-log-out:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: rgb(255, 193, 9);
+}
+
+.margin-bottom {
+  margin-bottom: 7rem;
+}
+
+.background-colors {
+  background: radial-gradient(rgb(48, 210, 242) 30%, rgba(255, 255, 255, 0) 45%);
+}
+
+#root {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(255, 193, 9);
+  position: fixed;
+  bottom: 0;
+}
+
+.footer__contact {
+  display: flex;
+  justify-content:right;
+}
+
+.footer__contact__info {
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  font-style: oblique;
+  color:#2e2a2a;
+  margin: 20px;
+}
+
+.btn-log-out {
+  background-color: #ffffff;
+  width: 7rem;
+  padding: 0.2rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  transition: ease-in-out 0.4s;
+}
+
+.btn-log-out:hover {
+  transform: scale(1.1);
+  background-color: rgb(255, 193, 9);
+}
+
+.margin-bottom {
+  margin-bottom: 7rem;
+}

@@ -1,0 +1,47 @@
+.nav-heading {
+  font-family: 'Days One', sans-serif;
+  color: rgb(255, 193, 9);
+  text-shadow: rgb(32, 32, 32) -3px 3px 1px;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-left: 1rem;
+}
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  background-color: rgb(48, 210, 242);
+  padding: 0.5rem;
+}
+
+.btn-log-in, .btn-Register, .btn-logout {
+  background-color: #ffffff;
+  width: 7rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  transition: ease-in-out 0.4s;
+}
+
+.btn-log-in:hover, .btn-Register:hover, .btn-logout:hover {
+  transform: scale(1.1);
+  background-color:rgb(48, 210, 242);
+  color: rgb(255, 255, 255);
+}
+
+.btn-Register {
+  background-color: rgb(255, 193, 9);
+}
+
+.btn-log-in a, .btn-Register a, .btn-logout a {
+  color: rgb(32, 32, 32);
+  text-decoration: none;
+  transition: ease-in-out 0.4s;
+}
+
+.btn-log-in a:hover, .btn-Register a:hover, .btn-logout a:hover {
+  color: rgb(32, 32, 32);
+}

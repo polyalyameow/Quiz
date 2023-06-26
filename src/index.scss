@@ -1,0 +1,12 @@
+@use 'fonts';
+
+@import 'nav';
+@import 'login';
+@import 'footer';
+@import 'background';
+
+
+#root{
+   width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+}
